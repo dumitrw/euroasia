@@ -23,20 +23,20 @@
   },
 
   "announcement": {
-    "enable": true,
-    "content": "<span class='text-center block'>♥️ Loving Astroplate? <a class='underline' href='https://github.com/zeon-studio/astroplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
+    "enable": false,
+    "content": "<span class='text-center block'>♥️ Salut! <a class='underline' href='https://google.com' target='_blank' rel='noopener'>Link⭐️ </a></span>",
     "expire_days": 7
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "© Euro Asia Education 2026."
   },
 
   "navigation_button": {
-    "enable": true,
+    "enable": false,
     "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "link": "--"
   },
 
   "google_tag_manager": {
@@ -51,8 +51,8 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "E.A.E.",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "EURO ASIA EDUCATION"
   }
 }

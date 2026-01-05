@@ -15,7 +15,7 @@
     {
       "name": "Pages",
       "url": "",
-      "hasChildren": true,
+      "hasChildren": false,
       "children": [
         {
           "name": "Contact",
@@ -26,8 +26,8 @@
           "url": "/blog"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Team",
+          "url": "/team"
         },
         {
           "name": "Categories",
@@ -43,15 +43,12 @@
         }
       ]
     }
-  ],
+  ]
+  ,
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Contact",
+      "url": "/contact"
     }
   ]
 }

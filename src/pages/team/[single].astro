@@ -7,12 +7,12 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import { slugify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
 
-// get all static paths for authors
+// get all static paths for team
 export async function getStaticPaths() {
-  const COLLECTION_FOLDER = "authors";
-  const authors = await getSinglePage(COLLECTION_FOLDER);
+  const COLLECTION_FOLDER = "team";
+  const team = await getSinglePage(COLLECTION_FOLDER);
 
-  const paths = authors.map((author) => ({
+  const paths = team.map((author) => ({
     params: {
       single: author.id,
     },

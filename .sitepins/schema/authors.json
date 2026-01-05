@@ -1,6 +1,6 @@
 {
-  "file": "src/content/authors/john-doe.md",
-  "name": "authors",
+  "file": "src/content/team/john-doe.md",
+  "name": "team",
   "fileType": "md",
   "fmType": "yaml",
   "template": [

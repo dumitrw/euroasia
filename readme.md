@@ -25,7 +25,7 @@
 
 ## 📌 Key Features
 
-- 👥 Multi-Authors
+- 👥 Multi-team
 - 🌐 Multilingual
 - 🎯 Similar Posts Suggestion
 - 🔍 Search Functionality
@@ -44,7 +44,7 @@
 - 🏠 Homepage
 - 👤 About
 - 📞 Contact
-- 👥 Authors
+- 👥 team
 - 👤 Author Single
 - 📝 Blog
 - 📝 Blog Single

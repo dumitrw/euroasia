@@ -27,8 +27,8 @@ const blogCollection = defineCollection({
 });
 
 // Author collection schema
-const authorsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/authors" }),
+const teamCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/team" }),
   schema: z.object({
     ...commonFields,
     social: z
@@ -145,7 +145,7 @@ export const collections = {
   // Pages
   homepage: homepageCollection,
   blog: blogCollection,
-  authors: authorsCollection,
+  team: teamCollection,
   pages: pagesCollection,
   about: aboutCollection,
   contact: contactCollection,
